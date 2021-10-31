@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+    		<title>Website</title>
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'website\css\estilo.css' %}">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    </head>
+	<body style="background: #a9b7c9">
+	    <header class="jumbotron text-center">
+            <h1 class="display-4">Projeto Web App Django</h1>
+            <p class="lead">Bem vindo ao meu Website!</p>
+            <hr>
+            <nav>
+                <a href="{% url 'website:paginainicial' %}" class="btn btn-info">Página Inicial</a>
+                <a href="{% url 'website:sobre' %}" class="btn btn-info">Sobre</a>
+                <a href="{% url 'website:contacto' %}" class="btn btn-info">Entre em Contacto</a>
+            </nav>
+        </header>
+
+            <article class="container">
+                <main class="col-sm-6">
+                    {% block main %}
+                    {% endblock main %}
+                </main>
+
+                <aside class="col-sm-6">
+                    <div">
+                        {% load static %}
+                        <img id="python_img" src="{% static 'website\images\processo.png' %}" alt="">
+                    </div>
+                </aside>
+            </article>
+
+	    <footer>
+            Realizado por: Gonçalo Ferreira 11058519
+        </footer>
+	</body>
+</html>

@@ -1,0 +1,75 @@
+.jumbotron{
+    background-color: #1f2833 !important;
+    color: #a9b7c9 !important;
+}
+
+.btn-info{
+    background-color: #45a29e !important;
+    color: #1f2833 !important;
+}
+
+.btn-info:hover, .btn-primary:hover{
+    color: #66fcf1 !important;
+}
+
+hr{
+    width: 700px;
+    border-top: 1px solid #66fcf1 !important;
+}
+
+article main{
+    padding: 10px;
+    color: #1f2833;
+    font-family: Arial;
+    text-align: center;
+    float: left;
+}
+
+article aside{
+    padding: 10px;
+    float: right;
+}
+
+img{
+    width: 300px;
+    height: 320px;
+}
+
+footer {
+   position: fixed;
+   bottom: 14px;
+   width: 100%;
+   text-align: center;
+    color: #1f2833;
+}
+
+#sobre{
+    text-align: left;
+    padding-left: 28px;
+}
+
+#form_contacto{
+    text-align: left;
+    margin: auto;
+}
+
+#email{
+    width: 300px;
+}
+
+#mensagem{
+    width: 300px;
+    height: 150px;
+}
+
+.btn-primary{
+    background-color: #1f2833 !important;
+    color: #a9b7c9 !important;
+}
+
+
+
+
+
+
+
